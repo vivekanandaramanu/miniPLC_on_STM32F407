@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**", 
+                "${workspaceFolder}/inc",
+                "${workspaceFolder}/drivers",
+                "${workspaceFolder}/OpenPLC/build/OpenPLC_Simulator/src"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compilerPath": "/usr/bin/arm-none-eabi-g++"
+        }
+    ],
+    "version": 4
+}
