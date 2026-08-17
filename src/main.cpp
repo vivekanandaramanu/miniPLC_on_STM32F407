@@ -46,10 +46,22 @@ extern "C" int main(void)
          */
          
         // 1. FORCE SAFETY: Add your code here to force physical PLC outputs LOW!
-         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,0);
-         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,0);
-         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,0);
          GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_11,0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_10,0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_9, 0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_8, 0);
+         GPIO_WriteToOutputPin(GPIOB, GPIO_PIN_NO_15,0);
+         GPIO_WriteToOutputPin(GPIOB, GPIO_PIN_NO_14,0);
+         GPIO_WriteToOutputPin(GPIOB, GPIO_PIN_NO_13,0);
+         GPIO_WriteToOutputPin(GPIOB, GPIO_PIN_NO_12,0);
+         GPIO_WriteToOutputPin(GPIOB, GPIO_PIN_NO_11,0);
+         GPIO_WriteToOutputPin(GPIOB, GPIO_PIN_NO_10,0);
+         GPIO_WriteToOutputPin(GPIOE, GPIO_PIN_NO_15,0);
+         GPIO_WriteToOutputPin(GPIOE, GPIO_PIN_NO_14,0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,0);
+         GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,0);
 
          uint8_t delay2;
          delay2++;   //1 cycle gap

@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**", 
                 "${workspaceFolder}/inc",
                 "${workspaceFolder}/drivers",
-                "${workspaceFolder}/OpenPLC/build/OpenPLC_Simulator/src"
+                "${workspaceFolder}/Wolpert_PLC/build/OpenPLC_Simulator/src"
             ],
             "defines": [],
             "cStandard": "c17",
